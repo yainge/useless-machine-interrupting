@@ -1,0 +1,5 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "\"$HOME/.platformio/penv/bin/pio\"": true
+    }
+}
