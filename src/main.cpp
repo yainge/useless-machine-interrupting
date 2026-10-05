@@ -1,9 +1,9 @@
 #include <Arduino.h>
 
 const int SOUND_PIN = A2;
-const int BUZZER_PIN = 6;
+const int BUZZER_PIN = 5;
 const int LED_PIN = 7;
-const int SOUND_THRESHOLD = 00;
+const int SOUND_THRESHOLD = 300;
 
 void setup()
 {
@@ -23,7 +23,7 @@ void loop()
     if (soundLevel > SOUND_THRESHOLD)
     {
         digitalWrite(LED_PIN, HIGH);
-        tone(BUZZER_PIN, 1000);
+        tone(BUZZER_PIN, 4000);
     }
     else
     {
