@@ -10,7 +10,7 @@
 // MP3 board TX    -> D2 (Arduino RX)
 // The sound sensor's onboard potentiometer controls sensitivity.
 const int SOUND_PIN = 5; // maybe wrong needs analog
-const unsigned long SOUND_THRESHOLD_MS = 100;
+// const unsigned long SOUND_THRESHOLD_MS = 100;
 const int LED_PIN = A0;
 const int BUZZER_PIN = 6;
 const int MP3_RX_PIN = 3;
